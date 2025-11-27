@@ -1,8 +1,8 @@
 import "./SobreNos.css";
-import Giovanna from "../src/assets/Giovanna.jpeg";
-import Julia from "../src/assets/Julia.jpeg";
-import Kamilly from "../src/assets/Kamilly.jpeg";
-import Duarte from "../src/assets/Duarte.jpeg";
+import Giovanna from "../assets/Giovanna.jpeg";
+import Julia from "../assets/Julia.jpeg";
+import Kamilly from "../assets/Kamilly.jpeg";
+import Duarte from "../assets/Duarte.jpeg";
 import Footer from "../components/Footer";
 
 export default function Team() {
