@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import NavBar from "../components/NavBar";
-import Apresentacao from "../pages/Apresentacao";
-import Professora from "../pages/SobreProfessora";
-import Calendario from "../pages/Calendario";
-import Depoimentos from "../pages/Depoimentos";
-import Colabore from "../pages/SobreNos";
+import NavBar from "./components/NavBar";
+import Apresentacao from "./pages/Apresentacao";
+import Professora from "./pages/SobreProfessora";
+import Calendario from "./pages/Calendario";
+import Depoimentos from "./pages/Depoimentos";
+import Colabore from "./pages/SobreNos";
 
 export default function AppRoutes() {
   return (
