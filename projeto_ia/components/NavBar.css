@@ -1,6 +1,6 @@
 /* NAVBAR GERAL */
 .navbar {
-  width: 100%;
+  width: 90vw;
   height: 70px;
   padding: 0 40px;
   background: #fff;
@@ -15,7 +15,7 @@
 .navbar-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .logo-box {
@@ -30,14 +30,15 @@
   font-weight: bold;
 }
 
-.logo-text {
-  font-size: 16px;
-  font-weight: 600;
-  color: #333;
-}
+  .logo-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
 
 .logo-text span {
-  color: #ff69b4;
+  color: #ff67b6;
+  font-weight: 600;
 }
 
 /* LINKS */
@@ -77,8 +78,25 @@
   background: #f7f7f7;
 }
 
-/* BOTÃO IA */
-.btn-ia {
-  background: #000;
-  color: white
+/* Botão rosa à direita */
+.ia-btn {
+  padding: 8px 20px;
+  background: #ff4ab8;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.ia-btn i {
+  font-size: 16px;
+}
+
+.ia-btn:hover {
+  opacity: 0.9;
 }

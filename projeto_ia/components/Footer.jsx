@@ -24,7 +24,7 @@ export default function Footer() {
           <li>Giovanna Ferreira</li>
           <li>Julisa Piazzoli</li>
           <li>Kemilly Barra</li>
-          <li>Maria Dutra</li>
+          <li>Maria Duarte</li>
         </ul>
       </div>
     </footer>

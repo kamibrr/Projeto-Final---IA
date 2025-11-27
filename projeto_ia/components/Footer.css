@@ -1,5 +1,6 @@
 .footer {
   background: #000;
+  width: 93vw;
   color: #fff;
   padding: 40px 40px;
   margin-top: 50px;
@@ -11,6 +12,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-section h4 {
@@ -45,4 +51,8 @@
   color: #999;
   margin-top: 30px;
   font-size: 14px;
+}
+
+h4 {
+    height: 50px;
 }
