@@ -1,0 +1,62 @@
+.team-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 30px;
+  justify-items: center;
+}
+
+/* CARD */
+.team-card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 230px;
+  padding: 25px 10px;
+  text-align: center;
+  border: 2px solid #ffe2f0;
+  box-shadow: 0 0 15px rgba(255, 159, 209, 0.15);
+}
+
+/* CÍRCULO */
+.photo-wrapper {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: #ffeaf4;
+  border: 2px solid #ff9ccd;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease;
+}
+
+/* FOTO IMPORTADA */
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+  filter: brightness(0.85);
+}
+
+/* EFEITO BONITO NO HOVER */
+.photo-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 126, 187, 0.4);
+}
+
+.photo-wrapper:hover .photo {
+  transform: scale(1.15);
+  filter: brightness(1);
+}
+
+/* NOME */
+.team-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 10px;
+}
